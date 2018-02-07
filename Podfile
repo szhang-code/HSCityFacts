@@ -1,5 +1,5 @@
 platform :ios, '7.0'
 
 target "HSCityFacts" do
-	pod 'HSCore', :git => 'https://github.com/aroldan/HSCore.git'
+	pod 'HSCore', :podspec => 'https://github.com/aroldan/HSCore/blob/master/HSCore.podspec'
 end
