@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		252D54378CD04F968BDB4577 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C8CA8FF726184920A57EED9F /* libPods.a */; };
+		0A4558B58903D768922A3B87 /* libPods-HSCityFacts.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CB068E1D1BFC9C734FAD37E /* libPods-HSCityFacts.a */; };
 		A9DC666E1972CFDB0029BAEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9DC666D1972CFDB0029BAEA /* Foundation.framework */; };
 		A9DC66701972CFDB0029BAEA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9DC666F1972CFDB0029BAEA /* CoreGraphics.framework */; };
 		A9DC66721972CFDB0029BAEA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9DC66711972CFDB0029BAEA /* UIKit.framework */; };
@@ -38,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8CB068E1D1BFC9C734FAD37E /* libPods-HSCityFacts.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HSCityFacts.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		978CC85D161E665C970A4BB6 /* Pods-HSCityFacts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HSCityFacts.release.xcconfig"; path = "Pods/Target Support Files/Pods-HSCityFacts/Pods-HSCityFacts.release.xcconfig"; sourceTree = "<group>"; };
 		A9DC666A1972CFDB0029BAEA /* HSCityFacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HSCityFacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9DC666D1972CFDB0029BAEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A9DC666F1972CFDB0029BAEA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -63,8 +65,7 @@
 		A9DC66B21972D5820029BAEA /* HSCityFactsApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HSCityFactsApp.h; path = CityFacts/HSCityFactsApp.h; sourceTree = "<group>"; };
 		A9DC66B31972D5820029BAEA /* HSCityFactsApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HSCityFactsApp.m; path = CityFacts/HSCityFactsApp.m; sourceTree = "<group>"; };
 		A9DC66F81972D9200029BAEA /* CityFacts.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = CityFacts.storyboard; path = CityFacts/CityFacts.storyboard; sourceTree = "<group>"; };
-		C8CA8FF726184920A57EED9F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		C914B4F27503415B94476EB6 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		AE1D924B5613A5EA28036DE9 /* Pods-HSCityFacts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HSCityFacts.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HSCityFacts/Pods-HSCityFacts.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +76,7 @@
 				A9DC66701972CFDB0029BAEA /* CoreGraphics.framework in Frameworks */,
 				A9DC66721972CFDB0029BAEA /* UIKit.framework in Frameworks */,
 				A9DC666E1972CFDB0029BAEA /* Foundation.framework in Frameworks */,
-				252D54378CD04F968BDB4577 /* libPods.a in Frameworks */,
+				0A4558B58903D768922A3B87 /* libPods-HSCityFacts.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +93,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7039FE271CC2E63E1FBCE164 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AE1D924B5613A5EA28036DE9 /* Pods-HSCityFacts.debug.xcconfig */,
+				978CC85D161E665C970A4BB6 /* Pods-HSCityFacts.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A9DC66611972CFDB0029BAEA = {
 			isa = PBXGroup;
 			children = (
@@ -99,7 +109,7 @@
 				A9DC66951972CFDB0029BAEA /* HSCityFactsTests */,
 				A9DC666C1972CFDB0029BAEA /* Frameworks */,
 				A9DC666B1972CFDB0029BAEA /* Products */,
-				C914B4F27503415B94476EB6 /* Pods.xcconfig */,
+				7039FE271CC2E63E1FBCE164 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -119,7 +129,7 @@
 				A9DC666F1972CFDB0029BAEA /* CoreGraphics.framework */,
 				A9DC66711972CFDB0029BAEA /* UIKit.framework */,
 				A9DC668F1972CFDB0029BAEA /* XCTest.framework */,
-				C8CA8FF726184920A57EED9F /* libPods.a */,
+				8CB068E1D1BFC9C734FAD37E /* libPods-HSCityFacts.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -188,11 +198,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A9DC669F1972CFDB0029BAEA /* Build configuration list for PBXNativeTarget "HSCityFacts" */;
 			buildPhases = (
-				9970048C846D4A2AACCC4890 /* Check Pods Manifest.lock */,
+				BF664657FC4FA78C103CCED5 /* [CP] Check Pods Manifest.lock */,
 				A9DC66661972CFDB0029BAEA /* Sources */,
 				A9DC66671972CFDB0029BAEA /* Frameworks */,
 				A9DC66681972CFDB0029BAEA /* Resources */,
-				493F015E240B476292E2D365 /* Copy Pods Resources */,
+				1DD4B18B0118CF10D3C56047 /* [CP] Embed Pods Frameworks */,
+				88F5B916A61B528B6E750091 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -277,34 +288,49 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		493F015E240B476292E2D365 /* Copy Pods Resources */ = {
+		1DD4B18B0118CF10D3C56047 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HSCityFacts/Pods-HSCityFacts-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9970048C846D4A2AACCC4890 /* Check Pods Manifest.lock */ = {
+		88F5B916A61B528B6E750091 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HSCityFacts/Pods-HSCityFacts-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF664657FC4FA78C103CCED5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -433,7 +459,7 @@
 		};
 		A9DC66A01972CFDB0029BAEA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C914B4F27503415B94476EB6 /* Pods.xcconfig */;
+			baseConfigurationReference = AE1D924B5613A5EA28036DE9 /* Pods-HSCityFacts.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -447,7 +473,7 @@
 		};
 		A9DC66A11972CFDB0029BAEA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C914B4F27503415B94476EB6 /* Pods.xcconfig */;
+			baseConfigurationReference = 978CC85D161E665C970A4BB6 /* Pods-HSCityFacts.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
