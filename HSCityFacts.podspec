@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/zhangchao4706/HSCityFacts"
   s.license      = "MIT"
   s.author       = { "Anthony Roldan" => "aroldan@hubspot.com" }
-  s.source       = { :git => "git@github.com:zhangchao4706/HSCityFacts.git", :tag => "0.0.2" }
+  s.source       = { :git => "https://github.com/zhangchao4706/HSCityFacts.git", :tag => "0.0.2" }
   s.ios.deployment_target = '7.0'
   s.source_files = 'HSCityFacts/CityFacts'
   s.resources = 'HSCityFacts/CityFacts/*.{xib,storyboard,png}'
