@@ -1,5 +1,8 @@
 platform :ios, '7.0'
 
+source "https://github.com/zhangchao4706/podspecs.git"
+source 'https://github.com/CocoaPods/Specs.git'
+
 target "HSCityFacts" do
-	pod 'HSCore', :podspec => 'https://github.com/aroldan/HSCore/blob/master/HSCore.podspec'
+	pod 'HSCore'
 end

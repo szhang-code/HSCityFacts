@@ -1,24 +1,15 @@
 PODS:
-  - HSCore (0.0.1):
+  - HSCore (0.0.2):
     - JLRoutes (~> 1.5)
   - JLRoutes (1.6.4)
 
 DEPENDENCIES:
-  - HSCore (from `https://github.com/aroldan/HSCore.git`)
-
-EXTERNAL SOURCES:
-  HSCore:
-    :git: https://github.com/aroldan/HSCore.git
-
-CHECKOUT OPTIONS:
-  HSCore:
-    :commit: e82d551646bae950ce49f02e74dd9bbc90e9a3b5
-    :git: https://github.com/aroldan/HSCore.git
+  - HSCore
 
 SPEC CHECKSUMS:
-  HSCore: 1e17b0731d418c7f7713b3d7a84cc46d80867af8
+  HSCore: 995e2ff6bfe89eb52ceab6b5aa06d015978ee91b
   JLRoutes: a2e6efb1b1070feccb6dc68e1646ca870f42115b
 
-PODFILE CHECKSUM: d442813de18332ef66d342f4a0864c984ae675b2
+PODFILE CHECKSUM: f3436479ddcf6af43bc60abca5a887ae5ab347a6
 
 COCOAPODS: 1.1.1
